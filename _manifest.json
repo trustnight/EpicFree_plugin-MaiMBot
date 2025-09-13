@@ -1,0 +1,40 @@
+{
+  "manifest_version": 1,
+  "name": "Epic 限免游戏插件 (Epic Free Games Plugin)",
+  "version": "1.0.0",
+  "description": "获取 Epic Game Store 限免游戏资讯的插件，支持查询限免游戏功能。",
+  "author": {
+    "name": "MaiMBot Team",
+    "url": "https://github.com/MaiMBot"
+  },
+  "license": "MIT",
+
+  "host_application": {
+    "min_version": "0.10.0"
+  },
+  "homepage_url": "https://github.com/MaiMBot/epic_free_plugin",
+  "repository_url": "https://github.com/MaiMBot/epic_free_plugin",
+  "keywords": ["epic", "games", "free", "store", "限免", "游戏", "Epic Games"],
+  "categories": ["Games", "Utilities", "Notifications"],
+
+  "default_locale": "zh-CN",
+  "locales_path": "_locales",
+
+  "plugin_info": {
+    "is_built_in": false,
+    "plugin_type": "games",
+    "components": [
+      {
+        "type": "command",
+        "name": "epic_free",
+        "description": "查询Epic限免游戏"
+      }
+    ],
+    "features": [
+      "查询当前Epic限免游戏",
+      "丰富的游戏信息展示",
+      "支持自定义显示选项",
+      "灵活的配置控制"
+    ]
+  }
+}
