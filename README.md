@@ -1,6 +1,6 @@
-# Epic 限免游戏插件 (Epic Free Games Plugin)
+# Epic 限免游戏插件
 
-MaiMBot版本的Epic Game Store限免游戏插件，支持查询限免游戏功能。
+MaiMBot版本的Epic Game Store限时可免费领取游戏查询插件。
 
 ## 功能特性
 
@@ -40,9 +40,13 @@ MaiMBot版本的Epic Game Store限免游戏插件，支持查询限免游戏功�
 ### 查询限免游戏
 
 发送以下命令查询当前限免游戏：
-- `喜加一`
-- `epic`
-- `Epic`
+- `/喜加一` 或 `#喜加一` 或 `喜加一`
+- `/epic` 或 `#epic` 或 `epic`
+- `/Epic` 或 `#Epic` 或 `Epic`
+
+**命令前缀配置**：
+- 默认支持 `/`、`#` 或无前缀
+- 可在配置文件中设置前缀模式：`slash`、`hash`、`none`、`all`
 
 ## 配置说明
 

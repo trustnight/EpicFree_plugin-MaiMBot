@@ -26,7 +26,9 @@ class EpicFreeCommand(BaseCommand):
     
     command_name = "epic_free"
     command_description = "查询Epic限免游戏"
+    # 默认：允许 /、# 或无前缀，命令词支持：喜加一/epic/Epic
     command_pattern = r"^(?:[/#])?(?:喜加一|epic|Epic)\s*$"
+    command_help = "使用 /喜加一 或 #喜加一 或 直接输入 喜加一 触发"
     intercept_message = True  # 阻断 relay，仅响应命令
     
     def __init__(self, *args, **kwargs):
