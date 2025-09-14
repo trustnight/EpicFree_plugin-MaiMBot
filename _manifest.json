@@ -12,8 +12,8 @@
   "host_application": {
     "min_version": "0.10.0"
   },
-  "homepage_url": "https://github.com/trustnight/epic_free_plugin-MaiMBot",
-  "repository_url": "https://github.com/trustnight/epic_free_plugin-MaiMBot",
+  "homepage_url": "https://github.com/trustnight/EpicFree_plugin-MaiMBot",
+  "repository_url": "https://github.com/trustnight/EpicFree_plugin-MaiMBot",
   "keywords": ["epic", "games", "free", "store", "限免", "游戏", "Epic Games"],
   "categories": ["Games", "Utilities", "Notifications"],
 
