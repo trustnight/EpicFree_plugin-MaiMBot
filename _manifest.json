@@ -14,7 +14,7 @@
   },
   "homepage_url": "https://github.com/trustnight/EpicFree_plugin-MaiMBot",
   "repository_url": "https://github.com/trustnight/EpicFree_plugin-MaiMBot",
-  "keywords": ["epic", "games", "free", "store", "限免", "游戏", "Epic Games"],
+  "keywords": ["实用工具","epic", "free", "限免", "游戏", "Epic Games"],
   "categories": ["Games", "Utilities", "Notifications"],
 
   "default_locale": "zh-CN",
