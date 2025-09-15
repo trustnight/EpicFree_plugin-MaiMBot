@@ -1,10 +1,10 @@
 {
   "manifest_version": 1,
-  "name": "Epic 限免游戏插件 (Epic Free Games Plugin)",
+  "name": "Epic 限免游戏插件",
   "version": "1.0.0",
   "description": "获取 Epic Game Store 限免游戏资讯的插件，支持查询限免游戏功能。",
   "author": {
-    "name": "MaiMBot Team",
+    "name": "trustnight",
     "url": "https://github.com/trustnight"
   },
   "license": "MIT",
